@@ -1,5 +1,5 @@
-# This repository was forked from ORB-SLAM3 https://github.com/raulmur/ORB_SLAM3. SuperPoint-SLAM is a modified version of ORB-SLAM3 which use SuperPoint as its feature detector and descriptor. The pre-trained model of SuperPoint come from https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork.
-This version is supposed to work with ORB-SLAM3 instead of ORB-SLAM2. This version is not optimised and might not outperfom ORB-SLAM3.
+This repository was forked from ORB-SLAM3 https://github.com/raulmur/ORB_SLAM3. SuperPoint-SLAM is a modified version of ORB-SLAM3 which use SuperPoint as its feature detector and descriptor. The pre-trained model of SuperPoint come from https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork.
+#This version is supposed to work with ORB-SLAM3 instead of ORB-SLAM2. This version is not optimised and might not outperfom ORB-SLAM3.
 
 ### V0.3: Beta version, 4 Sep 2020
 **Authors:** Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/).
