@@ -1,0 +1,1 @@
+sudo ./Examples/Monocular/mono_kitti Vocabulary/superpoint_voc.yml.gz Examples/Monocular/KITTI00-02.yaml /home/kasper/Dataset/dataset/sequences/00
