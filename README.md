@@ -78,9 +78,11 @@ Required to calculate the alignment of the trajectory with the ground truth. **R
 
 We use Pytorch C++ API to implement SuperPoint model. It can be built as follows:
 
+```
 git clone --recursive -b v1.0.1 https://github.com/pytorch/pytorch
 cd pytorch && mkdir build && cd build
 python ../tools/build_libtorch.py
+```
 
 It may take quite a long time to download and build. Please wait with patience.
 
@@ -111,6 +113,9 @@ Execute the following command. Change KITTIX.yamlby KITTI00-02.yaml, KITTI03.yam
     
 ./Examples/Monocular/mono_kitti Vocabulary/ORBvoc.txt Examples/Monocular/KITTIX.yaml PATH_TO_DATASET_FOLDER/dataset/sequences/SEQUENCE_NUMBER
 
+
+# Used work:
+```
 @inproceedings{deng2019comparative,
   title={Comparative Study of Deep Learning Based Features in SLAM},
   author={Deng, Chengqi and Qiu, Kaitao and Xiong, Rong and Zhou, Chunlin},
@@ -119,3 +124,5 @@ Execute the following command. Change KITTIX.yamlby KITTI00-02.yaml, KITTI03.yam
   year={2019},
   organization={IEEE}
 }
+```
+
